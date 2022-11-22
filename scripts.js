@@ -12,5 +12,5 @@ $('#chicago').hide();
 // Get a random image from Unsplash and fade it in on load
 $('#chicago').css({
   // serves a random image from this collection on Unsplash.com
-  'background-image' : 'url(https://source.unsplash.com/random/1920x1080)'
+  'background-image' : 'url(https://source.unsplash.com/random/1920x1080?military,usa)'
 }).fadeIn(1500);
