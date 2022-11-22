@@ -1,5 +1,5 @@
 // control the auto refresh rate -> 1000 = 1 second
-var refreshRate = 30000; // 30 seconds
+var refreshRate = 60000; // 60 seconds
 
 // Automatically reload the browser
 setInterval(function() {
@@ -12,5 +12,5 @@ $('#chicago').hide();
 // Get a random image from Unsplash and fade it in on load
 $('#chicago').css({
   // serves a random image from this collection on Unsplash.com
-  'background-image' : 'url(https://source.unsplash.com/random/1600x900)'
+  'background-image' : 'url(https://source.unsplash.com/random/1920x1080)'
 }).fadeIn(1500);
